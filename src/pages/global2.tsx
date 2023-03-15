@@ -1,4 +1,4 @@
-const styles = {
+// const styles = {
     // container_fixed: {
     //     maxWidth: '1228px',
     //     margin: '0 auto',
@@ -557,10 +557,10 @@ const styles = {
     //         },
     //     },
 
-},
+// },
 
 
 
-};
+// };
 
-export default styles;
+// export default styles;
