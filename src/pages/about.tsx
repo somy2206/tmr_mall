@@ -27,8 +27,6 @@ const aboutPageStaticQuery = graphql`
 	}
 `;
 
-
-
 const AboutPage: React.FC<{}> = () => (
   <StaticQuery<GatsbyTypes.Query>
     query={`${aboutPageStaticQuery}`}

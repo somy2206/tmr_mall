@@ -44,7 +44,8 @@ const PrivacyPage: React.FC<{}> = () => (
                     <Box className="privacy-page page-width--narrow" sx={styles.container_layout}>
                         <SEO title="Policy" />
                         <div className='privacyPolicy--wrapper'>
-                            <h1 sx={styles.title} className='title'>{maintitle}</h1>
+                            {/* sx={styles.title} */}
+                            <h1 className='title'>{maintitle}</h1>
                             <RichTextsection richtextSection={textgroup}
                             />
                         </div>

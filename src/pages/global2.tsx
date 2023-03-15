@@ -5,7 +5,7 @@ const styles = {
         padding: '30px 15px',
         width: '100%',
     },
-    'container_layout': {
+    container_layout: {
         maxWidth: '1228px',
         margin: '0 auto',
         padding: ['25px 20px', '30px 40px'],
