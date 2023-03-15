@@ -1,10 +1,10 @@
-// const styles = {
-    // container_fixed: {
-    //     maxWidth: '1228px',
-    //     margin: '0 auto',
-    //     padding: '30px 15px',
-    //     width: '100%',
-    // },
+const styles: { [key: string]: any } = {
+    container_fixed: {
+        maxWidth: '1228px',
+        margin: '0 auto',
+        padding: '30px 15px',
+        width: '100%',
+    },
     // container_layout: {
     //     maxWidth: '1228px',
     //     margin: '0 auto',
@@ -557,10 +557,10 @@
     //         },
     //     },
 
-// },
+    // },
 
 
 
-// };
+};
 
-// export default styles;
+export default styles;
