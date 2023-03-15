@@ -1,4 +1,4 @@
-const styles: { [key: string]: any } = {
+const styles = {
     container_fixed: {
         maxWidth: '1228px',
         margin: '0 auto',
