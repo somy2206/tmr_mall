@@ -5,7 +5,7 @@ import get from 'lodash/get';
 import SEO from '../components/seo';
 import { Box, Button, jsx, Heading } from 'theme-ui';
 import PrimaryLayout from '../components/layout/primary/primary';
-import styles from './global2';
+// import styles from './global2';
 import AccordionBTN from '../components/accordion/accodion';
 
 const aboutPageStaticQuery = graphql` 
@@ -47,8 +47,10 @@ const AboutPage: React.FC<{}> = () => (
           pathPrefix="/about"
           showNoticeBar={false}
         >
-          <SEO title="About" sx={styles.container_fixed} />
-          <Box className="accordion " sx={styles.container_layout}>
+          {/* sx={styles.container_fixed} */}
+          <SEO title="About" />
+          {/* sx={styles.container_layout} */}
+          <Box className="accordion " >
 
             <Heading as='h1' className='title'>{title}</Heading>
             {categoryItems.map(({ content, heading, image }: any) => (

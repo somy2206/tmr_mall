@@ -5,7 +5,7 @@ import SEO from '../components/seo';
 import PrimaryLayout from '../components/layout/primary/primary';
 import { Box, Text } from 'theme-ui';
 import RichTextsection from '../components/Richtext/richtext';
-import styles from './global2';
+// import styles from './global2';
 
 const privacyStaticQuery = graphql`
 	query {
@@ -41,7 +41,8 @@ const PrivacyPage: React.FC<{}> = () => (
                     pathPrefix="/privacy-policy"
                     showNoticeBar={false}
                 >
-                    <Box className="privacy-page page-width--narrow" sx={styles.container_layout}>
+                    {/* sx={styles.container_layout} */}
+                    <Box className="privacy-page page-width--narrow">
                         <SEO title="Policy" />
                         <div className='privacyPolicy--wrapper'>
                             {/* sx={styles.title} */}
