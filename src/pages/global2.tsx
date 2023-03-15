@@ -123,7 +123,7 @@ const styles = {
             backgroundColor: '#f1a329',
             fontFamily: 'body',
             marginTop: '-1px',
-            svg: {
+            'svg': {
                 width: [16, 18],
                 height: [16, 18],
                 marginLeft: 10,
@@ -136,428 +136,428 @@ const styles = {
             },
         },
     },
-    wrapper: {
-        backgroundColor: '#1d1d24',
-        maxWidth: '1228px',
-        width: '100%',
-        marginLeft: 'auto',
-        marginRight: 'auto',
+    // wrapper: {
+    //     backgroundColor: '#1d1d24',
+    //     maxWidth: '1228px',
+    //     width: '100%',
+    //     marginLeft: 'auto',
+    //     marginRight: 'auto',
 
-    },
-    'latest_section_wrapper': {
-        'div > div:nth-child(2)': {
-            padding: '0 15px',
-        },
-    },
-    'category__wrapper1': {
-        backgroundColor: '#1d1d24',
-        maxWidth: '1228px',
-        width: '100%',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        '.container_fixed': {
-            padding: ['30px 0 30px 15px', '30px 15px 60px'],
-            '> div > div': {
-                gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr 1fr',
-                '@media only screen and (max-width: 1100px)': {
-                    gridTemplateColumns: '1fr 1fr 1fr',
-                },
-                '@media only screen and (max-width: 768px)': {
-                    gridTemplateColumns: 'auto',
-                    whiteSpace: 'nowrap',
-                    display: 'flex',
-                    overflow: 'auto',
-                    paddingBottom: '10px',
-                    paddingRight: '15px',
-                    gridGap: '15px',
-                    '>div': {
-                        minWidth: '250px',
-                    },
-                },
-            },
-        },
+    // },
+    // 'latest_section_wrapper': {
+    //     'div > div:nth-child(2)': {
+    //         padding: '0 15px',
+    //     },
+    // },
+    // 'category__wrapper1': {
+    //     backgroundColor: '#1d1d24',
+    //     maxWidth: '1228px',
+    //     width: '100%',
+    //     marginLeft: 'auto',
+    //     marginRight: 'auto',
+    //     '.container_fixed': {
+    //         padding: ['30px 0 30px 15px', '30px 15px 60px'],
+    //         '> div > div': {
+    //             gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr 1fr',
+    //             '@media only screen and (max-width: 1100px)': {
+    //                 gridTemplateColumns: '1fr 1fr 1fr',
+    //             },
+    //             '@media only screen and (max-width: 768px)': {
+    //                 gridTemplateColumns: 'auto',
+    //                 whiteSpace: 'nowrap',
+    //                 display: 'flex',
+    //                 overflow: 'auto',
+    //                 paddingBottom: '10px',
+    //                 paddingRight: '15px',
+    //                 gridGap: '15px',
+    //                 '>div': {
+    //                     minWidth: '250px',
+    //                 },
+    //             },
+    //         },
+    //     },
 
-    },
-    'category3_wrapper': {
-        backgroundColor: '#1d1d24',
-        maxWidth: '1228px',
-        width: '100%',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        '.container_fixed': {
-            padding: ['30px 0 30px 15px', '30px 15px 60px'],
-            '> div > div': {
-                gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr 1fr',
-                '@media only screen and (max-width: 1100px)': {
-                    gridTemplateColumns: '1fr 1fr 1fr',
-                },
-                '@media only screen and (max-width: 768px)': {
-                    gridTemplateColumns: 'auto',
-                    whiteSpace: 'nowrap',
-                    display: 'flex',
-                    overflow: 'auto',
-                    paddingBottom: '10px',
-                    paddingRight: '15px',
-                    gridGap: '15px',
-                    '>div': {
-                        minWidth: '250px',
-                    },
-                },
-            },
-        },
-    },
-    'category4_wrapper': {
-        backgroundColor: '#1d1d24',
-        maxWidth: '1228px',
-        width: '100%',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        '.container_fixed': {
-            padding: ['30px 0 0px 15px', '30px 15px 60px'],
-            '> div > div': {
-                gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr 1fr',
-                '@media only screen and (max-width: 1100px)': {
-                    gridTemplateColumns: '1fr 1fr 1fr',
-                },
-                '@media only screen and (max-width: 768px)': {
-                    gridTemplateColumns: 'auto',
-                    whiteSpace: 'nowrap',
-                    display: 'flex',
-                    overflow: 'auto',
-                    paddingBottom: '10px',
-                    paddingRight: '15px',
-                    gridGap: '15px',
-                    '>div': {
-                        minWidth: '250px',
-                    },
-                },
-            },
-        },
-    },
-    'collage_section_wrapper': {
-        backgroundColor: '#1d1d24',
-        maxWidth: '1228px',
-        width: '100%',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        '.container_fixed': {
-            padding: ['30px 15px 30px', '30px 15px 60px'],
-            '@media only screen and (max-width: 768px)': {
-                paddingRight: '0',
-            },
-        },
-        '.collage-section': {
-            display: ['block', 'flex'],
-            justifyContent: 'space-between',
-            '@media only screen and (max-width: 768px)': {
-                whiteSpace: 'nowrap',
-                overflow: 'auto',
-                paddingBottom: '10px',
-                '>div': {
-                    minWidth: '250px',
-                },
-            },
-        },
-        '.collage--left-wrap': {
-            width: ['60%', 'calc(50% - 4px)'],
-            '@media only screen and (max-width: 768px)': {
-                display: ['inline-block'],
-                paddingRight: '15px',
-            },
-            'div div': {
-                display: 'block',
-            },
-            '> div': {
-                height: '100%',
-            },
-            '> div > div': {
-                height: '100%',
-            },
-            '> div > div > div': {
-                height: '100%',
-            },
-        },
-        '.collage--right-wrap': {
-            width: ['60%', 'calc(50% - 4px)'],
-            '@media only screen and (max-width: 768px)': {
-                display: ['inline-block'],
-            },
-            '> div': {
-                height: '100%',
-                '@media only screen and (max-width: 768px)': {
-                    display: ['inline-block'],
-                    width: '100%',
+    // },
+    // 'category3_wrapper': {
+    //     backgroundColor: '#1d1d24',
+    //     maxWidth: '1228px',
+    //     width: '100%',
+    //     marginLeft: 'auto',
+    //     marginRight: 'auto',
+    //     '.container_fixed': {
+    //         padding: ['30px 0 30px 15px', '30px 15px 60px'],
+    //         '> div > div': {
+    //             gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr 1fr',
+    //             '@media only screen and (max-width: 1100px)': {
+    //                 gridTemplateColumns: '1fr 1fr 1fr',
+    //             },
+    //             '@media only screen and (max-width: 768px)': {
+    //                 gridTemplateColumns: 'auto',
+    //                 whiteSpace: 'nowrap',
+    //                 display: 'flex',
+    //                 overflow: 'auto',
+    //                 paddingBottom: '10px',
+    //                 paddingRight: '15px',
+    //                 gridGap: '15px',
+    //                 '>div': {
+    //                     minWidth: '250px',
+    //                 },
+    //             },
+    //         },
+    //     },
+    // },
+    // 'category4_wrapper': {
+    //     backgroundColor: '#1d1d24',
+    //     maxWidth: '1228px',
+    //     width: '100%',
+    //     marginLeft: 'auto',
+    //     marginRight: 'auto',
+    //     '.container_fixed': {
+    //         padding: ['30px 0 0px 15px', '30px 15px 60px'],
+    //         '> div > div': {
+    //             gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr 1fr',
+    //             '@media only screen and (max-width: 1100px)': {
+    //                 gridTemplateColumns: '1fr 1fr 1fr',
+    //             },
+    //             '@media only screen and (max-width: 768px)': {
+    //                 gridTemplateColumns: 'auto',
+    //                 whiteSpace: 'nowrap',
+    //                 display: 'flex',
+    //                 overflow: 'auto',
+    //                 paddingBottom: '10px',
+    //                 paddingRight: '15px',
+    //                 gridGap: '15px',
+    //                 '>div': {
+    //                     minWidth: '250px',
+    //                 },
+    //             },
+    //         },
+    //     },
+    // },
+    // 'collage_section_wrapper': {
+    //     backgroundColor: '#1d1d24',
+    //     maxWidth: '1228px',
+    //     width: '100%',
+    //     marginLeft: 'auto',
+    //     marginRight: 'auto',
+    //     '.container_fixed': {
+    //         padding: ['30px 15px 30px', '30px 15px 60px'],
+    //         '@media only screen and (max-width: 768px)': {
+    //             paddingRight: '0',
+    //         },
+    //     },
+    //     '.collage-section': {
+    //         display: ['block', 'flex'],
+    //         justifyContent: 'space-between',
+    //         '@media only screen and (max-width: 768px)': {
+    //             whiteSpace: 'nowrap',
+    //             overflow: 'auto',
+    //             paddingBottom: '10px',
+    //             '>div': {
+    //                 minWidth: '250px',
+    //             },
+    //         },
+    //     },
+    //     '.collage--left-wrap': {
+    //         width: ['60%', 'calc(50% - 4px)'],
+    //         '@media only screen and (max-width: 768px)': {
+    //             display: ['inline-block'],
+    //             paddingRight: '15px',
+    //         },
+    //         'div div': {
+    //             display: 'block',
+    //         },
+    //         '> div': {
+    //             height: '100%',
+    //         },
+    //         '> div > div': {
+    //             height: '100%',
+    //         },
+    //         '> div > div > div': {
+    //             height: '100%',
+    //         },
+    //     },
+    //     '.collage--right-wrap': {
+    //         width: ['60%', 'calc(50% - 4px)'],
+    //         '@media only screen and (max-width: 768px)': {
+    //             display: ['inline-block'],
+    //         },
+    //         '> div': {
+    //             height: '100%',
+    //             '@media only screen and (max-width: 768px)': {
+    //                 display: ['inline-block'],
+    //                 width: '100%',
 
-                },
-            },
-            '> div > div': {
-                height: '100%',
-                flexWrap: 'wrap',
-                display: 'flex',
-                '@media only screen and (max-width: 768px)': {
-                    display: ['inline-block'],
-                    width: '100%',
-                    whiteSpace: 'nowrap',
-                },
-            },
+    //             },
+    //         },
+    //         '> div > div': {
+    //             height: '100%',
+    //             flexWrap: 'wrap',
+    //             display: 'flex',
+    //             '@media only screen and (max-width: 768px)': {
+    //                 display: ['inline-block'],
+    //                 width: '100%',
+    //                 whiteSpace: 'nowrap',
+    //             },
+    //         },
 
-            '> div > div > div': {
-                width: ['100%', 'calc(50% - 10px)'],
-                '@media only screen and (max-width: 768px)': {
-                    display: ['inline-block'],
-                    paddingRight: '15px',
-                },
-            },
-            '> div > div > div > a': {
-                width: '100%',
-            },
-        },
+    //         '> div > div > div': {
+    //             width: ['100%', 'calc(50% - 10px)'],
+    //             '@media only screen and (max-width: 768px)': {
+    //                 display: ['inline-block'],
+    //                 paddingRight: '15px',
+    //             },
+    //         },
+    //         '> div > div > div > a': {
+    //             width: '100%',
+    //         },
+    //     },
 
-    },
-    'category2__wrapper': {
-        backgroundColor: '#1d1d24',
-        maxWidth: '1228px',
-        width: '100%',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        '.container_fixed': {
-            padding: ['30px 0 30px 15px', '30px 15px 60px'],
-            '> div > div': {
-                gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr 1fr',
-                '@media only screen and (max-width: 1100px)': {
-                    gridTemplateColumns: '1fr 1fr 1fr',
-                },
-                '@media only screen and (max-width: 768px)': {
-                    gridTemplateColumns: 'auto',
-                    whiteSpace: 'nowrap',
-                    display: 'flex',
-                    overflow: 'auto',
-                    paddingBottom: '10px',
-                    paddingRight: '15px',
-                    gridGap: '15px',
-                    '>div': {
-                        minWidth: '250px',
-                    },
-                },
-            },
-        },
-    },
-    textTitle: {
-        color: '#fff',
-        fontSize: ['32px', 48],
-        textTransform: 'uppercase',
-        fontWeight: '600',
-        letterSpacing: '.7px',
-        position: 'relative',
-        fontFamily: 'oswald',
-        textAlign: 'center',
-        '&::after': {
-            content: `''`,
-            position: 'absolute',
-            left: '0px',
-            bottom: '-5px',
-            width: '70px',
-            height: '3px',
-            background: '#f1a329',
-            margin: 'auto',
-            pointerEvents: 'none',
-            right: '0',
-        },
+    // },
+    // 'category2__wrapper': {
+    //     backgroundColor: '#1d1d24',
+    //     maxWidth: '1228px',
+    //     width: '100%',
+    //     marginLeft: 'auto',
+    //     marginRight: 'auto',
+    //     '.container_fixed': {
+    //         padding: ['30px 0 30px 15px', '30px 15px 60px'],
+    //         '> div > div': {
+    //             gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr 1fr',
+    //             '@media only screen and (max-width: 1100px)': {
+    //                 gridTemplateColumns: '1fr 1fr 1fr',
+    //             },
+    //             '@media only screen and (max-width: 768px)': {
+    //                 gridTemplateColumns: 'auto',
+    //                 whiteSpace: 'nowrap',
+    //                 display: 'flex',
+    //                 overflow: 'auto',
+    //                 paddingBottom: '10px',
+    //                 paddingRight: '15px',
+    //                 gridGap: '15px',
+    //                 '>div': {
+    //                     minWidth: '250px',
+    //                 },
+    //             },
+    //         },
+    //     },
+    // },
+    // textTitle: {
+    //     color: '#fff',
+    //     fontSize: ['32px', 48],
+    //     textTransform: 'uppercase',
+    //     fontWeight: '600',
+    //     letterSpacing: '.7px',
+    //     position: 'relative',
+    //     fontFamily: 'oswald',
+    //     textAlign: 'center',
+    //     '&::after': {
+    //         content: `''`,
+    //         position: 'absolute',
+    //         left: '0px',
+    //         bottom: '-5px',
+    //         width: '70px',
+    //         height: '3px',
+    //         background: '#f1a329',
+    //         margin: 'auto',
+    //         pointerEvents: 'none',
+    //         right: '0',
+    //     },
 
-    },
-    iconAccount: {
-        color: '#f1a329'
-    },
-    '.container': {
-        maxWidth: '100%',
-    },
-    'collage_section2_wrapper': {
-        padding: ['30px 0 0px', '40px 0 10px'],
-        '.container_fixed': {
-            maxWidth: '1228px',
-            margin: '0 auto',
-            padding: '30px 15px',
-            width: '100%',
-            '@media only screen and (max-width: 768px)': {
-                paddingRight: '0',
-                paddingBottom: '0px',
-            },
-        },
-        '.collage-section': {
-            display: ['block', 'flex'],
-            justifyContent: 'space-between',
-            '@media only screen and (max-width: 768px)': {
-                whiteSpace: 'nowrap',
-                overflow: 'auto',
-                paddingBottom: '10px',
-                '>div': {
-                    minWidth: '250px',
-                },
-            },
+    // },
+    // iconAccount: {
+    //     color: '#f1a329'
+    // },
+    // '.container': {
+    //     maxWidth: '100%',
+    // },
+    // 'collage_section2_wrapper': {
+    //     padding: ['30px 0 0px', '40px 0 10px'],
+    //     '.container_fixed': {
+    //         maxWidth: '1228px',
+    //         margin: '0 auto',
+    //         padding: '30px 15px',
+    //         width: '100%',
+    //         '@media only screen and (max-width: 768px)': {
+    //             paddingRight: '0',
+    //             paddingBottom: '0px',
+    //         },
+    //     },
+    //     '.collage-section': {
+    //         display: ['block', 'flex'],
+    //         justifyContent: 'space-between',
+    //         '@media only screen and (max-width: 768px)': {
+    //             whiteSpace: 'nowrap',
+    //             overflow: 'auto',
+    //             paddingBottom: '10px',
+    //             '>div': {
+    //                 minWidth: '250px',
+    //             },
+    //         },
 
-        },
-        '.collage--left-wrap': {
-            width: ['60%', 'calc(50% - 4px)'],
-            '@media only screen and (max-width: 768px)': {
-                display: ['inline-block'],
-                paddingRight: '10px',
-            },
-            'div div': {
-                display: 'block',
-            },
-            '> div': {
-                height: '100%',
-            },
-            '> div > div': {
-                height: '100%',
-            },
-            '> div > div > div': {
-                height: '100%',
-            },
-        },
-        '.collage--right-wrap': {
-            width: ['60%', 'calc(50% - 4px)'],
-            '@media only screen and (max-width: 768px)': {
-                display: ['inline-block'],
-            },
-            '> div': {
-                height: '100%',
-                '@media only screen and (max-width: 768px)': {
-                    display: ['inline-block'],
-                    width: '100%',
+    //     },
+    //     '.collage--left-wrap': {
+    //         width: ['60%', 'calc(50% - 4px)'],
+    //         '@media only screen and (max-width: 768px)': {
+    //             display: ['inline-block'],
+    //             paddingRight: '10px',
+    //         },
+    //         'div div': {
+    //             display: 'block',
+    //         },
+    //         '> div': {
+    //             height: '100%',
+    //         },
+    //         '> div > div': {
+    //             height: '100%',
+    //         },
+    //         '> div > div > div': {
+    //             height: '100%',
+    //         },
+    //     },
+    //     '.collage--right-wrap': {
+    //         width: ['60%', 'calc(50% - 4px)'],
+    //         '@media only screen and (max-width: 768px)': {
+    //             display: ['inline-block'],
+    //         },
+    //         '> div': {
+    //             height: '100%',
+    //             '@media only screen and (max-width: 768px)': {
+    //                 display: ['inline-block'],
+    //                 width: '100%',
 
-                },
-            },
-            '> div > div': {
-                height: '100%',
-                flexWrap: 'wrap',
-                display: 'flex',
-                '@media only screen and (max-width: 768px)': {
-                    display: ['inline-block'],
-                    width: '100%',
-                    whiteSpace: 'nowrap',
-                },
-            },
+    //             },
+    //         },
+    //         '> div > div': {
+    //             height: '100%',
+    //             flexWrap: 'wrap',
+    //             display: 'flex',
+    //             '@media only screen and (max-width: 768px)': {
+    //                 display: ['inline-block'],
+    //                 width: '100%',
+    //                 whiteSpace: 'nowrap',
+    //             },
+    //         },
 
-            '> div > div > div': {
-                width: ['100%', 'calc(50% - 10px)'],
-                '@media only screen and (max-width: 768px)': {
-                    display: ['inline-block'],
-                    paddingRight: '15px',
-                },
-            },
-            '> div > div > div > a': {
-                width: '100%',
-            },
-        },
-        '.title': {
-            color: '#fff',
-            fontSize: ['32px', 48],
-            textTransform: 'uppercase',
-            fontWeight: '600',
-            letterSpacing: '.7px',
-            position: 'relative',
-            fontFamily: 'oswald',
-            textAlign: 'center',
+    //         '> div > div > div': {
+    //             width: ['100%', 'calc(50% - 10px)'],
+    //             '@media only screen and (max-width: 768px)': {
+    //                 display: ['inline-block'],
+    //                 paddingRight: '15px',
+    //             },
+    //         },
+    //         '> div > div > div > a': {
+    //             width: '100%',
+    //         },
+    //     },
+    //     '.title': {
+    //         color: '#fff',
+    //         fontSize: ['32px', 48],
+    //         textTransform: 'uppercase',
+    //         fontWeight: '600',
+    //         letterSpacing: '.7px',
+    //         position: 'relative',
+    //         fontFamily: 'oswald',
+    //         textAlign: 'center',
 
-            '&::after': {
-                content: `''`,
-                position: 'absolute',
-                left: '0px',
-                bottom: '-5px',
-                width: '70px',
-                height: '3px',
-                background: '#f1a329',
-                margin: 'auto',
-                pointerEvents: 'none',
-                right: '0',
-            },
-        },
-    },
-    'category5_wrapper': {
-        padding: ['30px 0 0px', '40px 0 10px'],
-        '.container_fixed': {
-            maxWidth: '1228px',
-            margin: '0 auto',
-            padding: ['30px 0 30px 15px', '30px 15px 60px'],
-            width: '100%',
-            '> div > div': {
-                gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr 1fr',
-                '@media only screen and (max-width: 1100px)': {
-                    gridTemplateColumns: '1fr 1fr 1fr',
-                },
-                '@media only screen and (max-width: 768px)': {
-                    gridTemplateColumns: 'auto',
-                    whiteSpace: 'nowrap',
-                    display: 'flex',
-                    overflow: 'auto',
-                    paddingBottom: '10px',
-                    paddingRight: '15px',
-                    '>div': {
-                        minWidth: '250px',
-                    },
-                },
-            },
-        },
-        '.title': {
-            color: '#fff',
-            fontSize: ['32px', 48],
-            textTransform: 'uppercase',
-            fontWeight: '600',
-            letterSpacing: '.7px',
-            position: 'relative',
-            fontFamily: 'oswald',
-            textAlign: 'center',
-            '&::after': {
-                content: `''`,
-                position: 'absolute',
-                left: '0px',
-                bottom: '-5px',
-                width: '70px',
-                height: '3px',
-                background: '#f1a329',
-                margin: 'auto',
-                pointerEvents: 'none',
-                right: '0',
-            },
-        },
-    },
-    'brand_store_wrap': {
-        padding: ['30px 0 0px', '40px 0 10px'],
-        backgroundColor: '#4a4a4a',
-        '.brand-content-wrap': {
-            width: '100%',
-            padding: '0 5px',
-            '@media (min-width:769px) and (max-width: 1100px)': {
-                width: '25%',
-                padding: 0,
-            },
-        },
-        '.title': {
-            color: '#fff',
-            fontSize: ['32px', 48],
-            textTransform: 'uppercase',
-            fontWeight: '600',
-            letterSpacing: '.7px',
-            position: 'relative',
-            fontFamily: 'oswald',
-            textAlign: 'center',
-            margin: ['0 0 10px', '0 0 10px'],
-            '&::after': {
-                content: `''`,
-                position: 'absolute',
-                left: '0px',
-                bottom: '-5px',
-                width: '70px',
-                height: '3px',
-                background: '#f1a329',
-                margin: 'auto',
-                pointerEvents: 'none',
-                right: '0',
-            },
-        },
+    //         '&::after': {
+    //             content: `''`,
+    //             position: 'absolute',
+    //             left: '0px',
+    //             bottom: '-5px',
+    //             width: '70px',
+    //             height: '3px',
+    //             background: '#f1a329',
+    //             margin: 'auto',
+    //             pointerEvents: 'none',
+    //             right: '0',
+    //         },
+    //     },
+    // },
+    // 'category5_wrapper': {
+    //     padding: ['30px 0 0px', '40px 0 10px'],
+    //     '.container_fixed': {
+    //         maxWidth: '1228px',
+    //         margin: '0 auto',
+    //         padding: ['30px 0 30px 15px', '30px 15px 60px'],
+    //         width: '100%',
+    //         '> div > div': {
+    //             gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr 1fr',
+    //             '@media only screen and (max-width: 1100px)': {
+    //                 gridTemplateColumns: '1fr 1fr 1fr',
+    //             },
+    //             '@media only screen and (max-width: 768px)': {
+    //                 gridTemplateColumns: 'auto',
+    //                 whiteSpace: 'nowrap',
+    //                 display: 'flex',
+    //                 overflow: 'auto',
+    //                 paddingBottom: '10px',
+    //                 paddingRight: '15px',
+    //                 '>div': {
+    //                     minWidth: '250px',
+    //                 },
+    //             },
+    //         },
+    //     },
+    //     '.title': {
+    //         color: '#fff',
+    //         fontSize: ['32px', 48],
+    //         textTransform: 'uppercase',
+    //         fontWeight: '600',
+    //         letterSpacing: '.7px',
+    //         position: 'relative',
+    //         fontFamily: 'oswald',
+    //         textAlign: 'center',
+    //         '&::after': {
+    //             content: `''`,
+    //             position: 'absolute',
+    //             left: '0px',
+    //             bottom: '-5px',
+    //             width: '70px',
+    //             height: '3px',
+    //             background: '#f1a329',
+    //             margin: 'auto',
+    //             pointerEvents: 'none',
+    //             right: '0',
+    //         },
+    //     },
+    // },
+    // 'brand_store_wrap': {
+    //     padding: ['30px 0 0px', '40px 0 10px'],
+    //     backgroundColor: '#4a4a4a',
+    //     '.brand-content-wrap': {
+    //         width: '100%',
+    //         padding: '0 5px',
+    //         '@media (min-width:769px) and (max-width: 1100px)': {
+    //             width: '25%',
+    //             padding: 0,
+    //         },
+    //     },
+    //     '.title': {
+    //         color: '#fff',
+    //         fontSize: ['32px', 48],
+    //         textTransform: 'uppercase',
+    //         fontWeight: '600',
+    //         letterSpacing: '.7px',
+    //         position: 'relative',
+    //         fontFamily: 'oswald',
+    //         textAlign: 'center',
+    //         margin: ['0 0 10px', '0 0 10px'],
+    //         '&::after': {
+    //             content: `''`,
+    //             position: 'absolute',
+    //             left: '0px',
+    //             bottom: '-5px',
+    //             width: '70px',
+    //             height: '3px',
+    //             background: '#f1a329',
+    //             margin: 'auto',
+    //             pointerEvents: 'none',
+    //             right: '0',
+    //         },
+    //     },
 
-    },
+},
 
 
 
