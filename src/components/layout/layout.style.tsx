@@ -47,6 +47,13 @@ const styles = {
 			},
 		},
 	},
+	container_fixed: {
+		maxWidth: '1228px',
+		margin: '0 auto',
+		padding: '30px 15px',
+		width: '100%',
+	},
+
 };
 
 export default styles;

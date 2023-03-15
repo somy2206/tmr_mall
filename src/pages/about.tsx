@@ -6,6 +6,7 @@ import SEO from '../components/seo';
 import { Box, Button, jsx, Heading } from 'theme-ui';
 import PrimaryLayout from '../components/layout/primary/primary';
 // import styles from './global2';
+import styles from '../components/layout/layout.style';
 import AccordionBTN from '../components/accordion/accodion';
 
 const aboutPageStaticQuery = graphql` 
@@ -31,7 +32,7 @@ const AboutPage: React.FC<{}> = () => (
   <StaticQuery<GatsbyTypes.Query>
     query={`${aboutPageStaticQuery}`}
     render={(data) => {
-      const categoryItems = get(
+      const categoryItems: any = get(
         data,
         'prismic.allAbouts.edges[0].node.accordion_group'
       );
@@ -50,7 +51,7 @@ const AboutPage: React.FC<{}> = () => (
           {/* sx={styles.container_fixed} */}
           <SEO title="About" />
           {/* sx={styles.container_layout} */}
-          <Box className="accordion " >
+          <Box className="accordion " sx={styles.container_fixed}>
 
             <Heading as='h1' className='title'>{title}</Heading>
             {categoryItems.map(({ content, heading, image }: any) => (

@@ -38,7 +38,7 @@ const ProductPage: React.FC<any> = ({
 		listView = false,
 	} = product;
 
-	const { store: { client }, } = useContext(CartContext);
+	const { store: { client }, }: any = useContext(CartContext);
 
 	const { products, add, update } = useContext(LocalCartContext);
 	const counterRef = useRef(null!);
